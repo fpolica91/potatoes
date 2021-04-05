@@ -1,0 +1,49 @@
+{
+  "name": "gpstelv5-admin-portal",
+  "version": "1.0.0",
+  "description": "AesthetiBot (GPSTelv5) Admin Portal",
+  "author": "PlacerTech",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "5.12.2",
+    "@nuxtjs/firebase": "6.1.1",
+    "cross-env": "7.0.2",
+    "firebase": "7.21.1",
+    "moment": "2.29.0",
+    "nuxt": "2.14.6",
+    "stripe": "8.102.0",
+    "vue-json-to-csv": "1.1.8",
+    "vue-sweetalert2": "3.0.8",
+    "vuedraggable": "2.24.1",
+    "vuetify": "1.5.24",
+    "vuetify-loader": "1.6.0"
+  },
+  "devDependencies": {
+    "@babel/runtime-corejs2": "7.11.2",
+    "@nuxtjs/eslint-config": "3.1.0",
+    "babel-eslint": "10.1.0",
+    "core-js": "3.6.5",
+    "eslint": "7.10.0",
+    "eslint-config-standard": "14.1.1",
+    "eslint-loader": "4.0.2",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jest": "24.0.2",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-nuxt": "1.0.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.0.1",
+    "eslint-plugin-vue": "6.2.2",
+    "node-fetch": "2.6.1",
+    "nodemon": "2.0.4",
+    "stylus": "0.54.8",
+    "stylus-loader": "3.0.2"
+  }
+}
